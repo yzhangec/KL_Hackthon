@@ -1,0 +1,1 @@
+C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\obj\ARM\Debug\WSDKTest.csprojAssemblyReference.cache

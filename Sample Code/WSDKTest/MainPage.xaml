@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="WSDKTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WSDKTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    KeyUp="Grid_KeyUp" KeyDown="Grid_KeyDown">
+
+    <Grid>
+        <Grid x:Name="RootGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="fpvImage" Stretch="UniformToFill" Visibility="Visible" Grid.Column="0" Margin="0, 10, 0, 0" />
+            <StackPanel Grid.Column="1" Padding="5">
+                <TextBlock Text="Scanned QRCode:" TextWrapping="Wrap" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+                <TextBox  x:Name="Textbox" TextWrapping="Wrap" AcceptsReturn="True" IsReadOnly="True"/>
+                <Button Content="STOP" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Stop_Button_Click">
+                    <Button.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="x" Modifiers="Control" />
+                    </Button.KeyboardAccelerators>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
