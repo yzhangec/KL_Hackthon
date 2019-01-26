@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-UR8JR3Q</Machine>
+    <Machine>LAPTOP-39H0MHG5</Machine>
     <WindowsUser>eason</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>346f942f-641a-4113-b936-dad94ac0bae0</PackageIdentityName>
     <PackageIdentityPublisher>CN=johnl</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>942FADD05FDB3A9B7E39545E49E033A60B541DBDBAD80C6D7368F55E0BC642FC</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D7AD802285B07942F7A4C71503FD611270454BD9FC2A52A5BBE727A603D6A4D1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.dji.wsdkdemo_1.0.0.0_x86__d8v0w055bgttc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.dji.wsdkdemo_d8v0w055bgttc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.dji.wsdkdemo</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T16:44:35.459</Modified>
+      <Modified>2019-01-26T02:16:27.437</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\WSDKTest.exe">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\WSDKTest.exe">
       <PackagePath>entrypoint\WSDKTest.exe</PackagePath>
-      <Modified>2019-01-25T16:44:34.728</Modified>
+      <Modified>2019-01-26T02:16:26.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.3\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -50,103 +50,103 @@
       <PackagePath>zxing.dll</PackagePath>
       <Modified>2018-04-14T10:39:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\WSDK Libraries\SDK dll\DJIWindowsSDK.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\WSDK Libraries\SDK dll\DJIWindowsSDK.dll">
       <PackagePath>DJIWindowsSDK.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.401</Modified>
+      <Modified>2019-01-26T02:14:51.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\WSDK Libraries\SDK dll\DJIWindowsWrapper.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\WSDK Libraries\SDK dll\DJIWindowsWrapper.dll">
       <PackagePath>DJIWindowsWrapper.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.479</Modified>
+      <Modified>2019-01-26T02:14:51.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\Debug\DJIVideoParser\DJIVideoParser.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\Debug\DJIVideoParser\DJIVideoParser.dll">
       <PackagePath>DJIVideoParser.dll</PackagePath>
-      <Modified>2019-01-25T16:44:00.541</Modified>
+      <Modified>2019-01-26T02:16:02.226</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\Debug\DJIVideoParser\DJIVideoParser.winmd">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\Debug\DJIVideoParser\DJIVideoParser.winmd">
       <PackagePath>DJIVideoParser.winmd</PackagePath>
-      <Modified>2019-01-25T16:44:00.342</Modified>
+      <Modified>2019-01-26T02:16:01.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-22T17:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\WSDK Libraries\SDK dll\DJIWindowsWrapper.winmd">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\WSDK Libraries\SDK dll\DJIWindowsWrapper.winmd">
       <PackagePath>DJIWindowsWrapper.winmd</PackagePath>
-      <Modified>2019-01-25T15:39:55.482</Modified>
+      <Modified>2019-01-26T02:14:51.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\avcodec-56.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\avcodec-56.dll">
       <PackagePath>avcodec-56.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.051</Modified>
+      <Modified>2019-01-26T02:14:49.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\avformat-56.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\avformat-56.dll">
       <PackagePath>avformat-56.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.059</Modified>
+      <Modified>2019-01-26T02:14:49.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\avutil-54.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\avutil-54.dll">
       <PackagePath>avutil-54.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.063</Modified>
+      <Modified>2019-01-26T02:14:49.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\libcrypto-1_1.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\libcrypto-1_1.dll">
       <PackagePath>libcrypto-1_1.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.336</Modified>
+      <Modified>2019-01-26T02:14:50.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\pthread_dll.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\pthread_dll.dll">
       <PackagePath>pthread_dll.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.354</Modified>
+      <Modified>2019-01-26T02:14:50.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\swscale-3.dll">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\swscale-3.dll">
       <PackagePath>swscale-3.dll</PackagePath>
-      <Modified>2019-01-25T15:39:55.357</Modified>
+      <Modified>2019-01-26T02:14:50.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-01-25T15:39:55.027</Modified>
+      <Modified>2019-01-26T02:14:49.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-01-25T15:39:55.017</Modified>
+      <Modified>2019-01-26T02:14:49.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T15:39:55.018</Modified>
+      <Modified>2019-01-26T02:14:49.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T15:39:55.019</Modified>
+      <Modified>2019-01-26T02:14:49.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T15:39:55.020</Modified>
+      <Modified>2019-01-26T02:14:49.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T15:39:55.021</Modified>
+      <Modified>2019-01-26T02:14:49.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T15:39:55.021</Modified>
+      <Modified>2019-01-26T02:14:49.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-25T15:39:55.022</Modified>
+      <Modified>2019-01-26T02:14:49.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\WSDKTest.xr.xml">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\WSDKTest.xr.xml">
       <PackagePath>WSDKTest.xr.xml</PackagePath>
-      <Modified>2019-01-25T16:19:41.266</Modified>
+      <Modified>2019-01-26T02:14:50.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-01-25T16:44:34.552</Modified>
+      <Modified>2019-01-26T02:16:26.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-01-25T16:44:34.552</Modified>
+      <Modified>2019-01-26T02:16:26.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -160,13 +160,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2018-12-18T12:52:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-01-25T16:44:34.943</Modified>
+      <Modified>2019-01-26T02:16:26.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\eason\Desktop\Working Space\DJIWindowsSDK_MavicAir\Sample Code\WSDKTest\bin\x86\Debug\Core\WSDKTest.exe">
+    <AppxPackagedFile Include="C:\Users\eason\Desktop\ws\KL_Hackthon\Sample Code\WSDKTest\bin\x86\Debug\Core\WSDKTest.exe">
       <PackagePath>WSDKTest.exe</PackagePath>
-      <Modified>2019-01-25T16:44:35.453</Modified>
+      <Modified>2019-01-26T02:16:27.408</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
